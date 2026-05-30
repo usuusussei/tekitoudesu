@@ -1,0 +1,74 @@
+@charset "utf-8";
+
+html{
+    font-size: 100%;
+}
+
+body{
+    line-height: 1.7;
+    color:#432;
+}
+
+a{
+    text-decoration: none;
+}
+
+img{
+    max-width:100%;
+}
+
+.page-header{
+    padding-top: .5rem;
+    text-align: center;
+}
+
+/* ロゴ＋タイトルを横並びに */
+.logo-wrap{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.logo{
+    width:210px;
+}
+
+/* ロゴ横の文字 */
+.site-title{
+    font-size: 1.8rem;
+    font-weight: bold;
+    color:#432;
+}
+
+.main-nav{
+    display: flex;
+    justify-content: center;
+    gap: 2.5rem;
+    font-size:1.5rem;
+    list-style: none;
+}
+
+.main-na a{
+    color:#432;
+}
+.main-nav a:hover{
+    color:#0bd;
+}
+
+.page-title{
+    text-align: center;
+    font-size:3rem;
+    margin-top:2rem;
+    line-height:1.4;
+}
+
+.cover{
+    background-size:cover;
+    background-position:center bottom;
+    height:800px;
+}
+
+.cover-home{
+    background-image:url(images/usuusussei/png)
+}
